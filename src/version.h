@@ -1,0 +1,2 @@
+#define THRIFT_VERSION "0.9.2"
+#define ZAN_THRIFT_VERSION "v1.0.1"
