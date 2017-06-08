@@ -2575,11 +2575,12 @@ void t_java_generator::generate_service(t_service* tservice) {
     f_service_ <<
     autogen_comment() <<
     java_package() <<
-    java_type_imports() <<
+    java_type_imports(); 
+    generate_java_doc(f_service_, tservice);
+    f_service_ << 
     java_suppressions();
     
-    generate_javax_generated_annotation(f_service_);
-    generate_java_doc(f_service_, tservice);
+    generate_javax_generated_annotation(f_service_);   
 #ifdef ZAN
     f_service_ << "public interface " << service_name_ << " {" << endl << endl;
     indent_up();
