@@ -1,3 +1,6 @@
+<p>
+<a href="https://github.com/youzan/"><img alt="有赞logo" width="36px" src="https://img.yzcdn.cn/public_files/2017/02/09/e84aa8cbbf7852688c86218c1f3bbf17.png" alt="youzan">
+</p></a>
 <p align="center">zan thrift代码生成工具</p>
 
 ## 使用与安装
