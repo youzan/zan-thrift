@@ -34,6 +34,7 @@ make
 - [thrift IDL语法](http://zanphpdoc.zanphp.io/nova/IDL_syntax.html)
 - [zan-thrift IDL 设计规范](http://zanphpdoc.zanphp.io/nova/IDL_spec.html)
 - [zan-thrift 代码生成工具](http://zanphpdoc.zanphp.io/nova/zan_thrift.html)
+- [定制Intellij插件](https://github.com/youzan/intellij-thrift) 
 
 
 ## 常用链接
