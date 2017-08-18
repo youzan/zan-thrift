@@ -57,6 +57,7 @@ void CFileList::listDir(const char *pPath)
     
     if ((pDir = opendir(pPath)) == NULL) {
         printf("\033[1;31;40m[WARNING]\033[0m open current path failed. [path=%s]\n", pPath);
+        return;
     }
     
     size_t nFileNameLen = 0;
